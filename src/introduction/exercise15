@@ -1,0 +1,17 @@
+Application:
+    ((λx.(x x))(λx.(x x)))
+
+------------------------------
+Function:
+    (λx.(x x))(λx.(x x))
+Notation for Beta Reduction:
+    (x x)[x:=(λx.(x x)]
+Replacing x:
+    ((λx.(x x) (λx.(x x))
+New application:
+    (λx.(x x))(λx.(x x))
+
+ETERNAL LOOP
+
+Result:
+    CAN'T REDUCE

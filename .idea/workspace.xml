@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897290ef-10d8-41ba-a5e8-87fd3e1e664a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/exercise13" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/exercise14" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/exercise15" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/exercise16" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/exercise17.clj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise1.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise10.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise11.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise12.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise2.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise3.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise4.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise5.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise6.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise7.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise8.clj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hackerrank/exercise9.clj" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SvjvAv6WzGEGB2GSMbfK6v7O0E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GoToNamespace.includeLibraries" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
