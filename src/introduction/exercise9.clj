@@ -1,4 +1,4 @@
-(ns hackerrank.exercise9)
+(ns introduction.exercise9)
 ;https://www.hackerrank.com/challenges/fp-sum-of-odd-elements/problem
 
 ;test lazy seq

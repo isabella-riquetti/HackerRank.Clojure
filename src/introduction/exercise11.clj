@@ -1,4 +1,4 @@
-(ns hackerrank.exercise11)
+(ns introduction.exercise11)
 ;https://www.hackerrank.com/challenges/fp-update-list/problem
 
 ;test list

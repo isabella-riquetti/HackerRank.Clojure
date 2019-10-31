@@ -5,8 +5,8 @@
   (+ x y))
 
 (println "Digite o primeiro número:")
-(def a (read-line)
-  println "Digite o primeiro número:")
+(def a (read-line))
+(println "Digite o primeiro número:")
 (def b (read-line))
 
 (println "Soma dos números:")

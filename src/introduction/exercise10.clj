@@ -1,4 +1,4 @@
-(ns hackerrank.exercise10)
+(ns introduction.exercise10)
 ;https://www.hackerrank.com/challenges/fp-list-length/problem
 
 ;test list

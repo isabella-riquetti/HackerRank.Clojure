@@ -1,4 +1,4 @@
-(ns hackerrank.exercise8)
+(ns introduction.exercise8)
 ;https://www.hackerrank.com/challenges/fp-reverse-a-list/problem
 
 ;test list

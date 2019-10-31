@@ -1,4 +1,4 @@
-(ns hackerrank.exercise12)
+(ns introduction.exercise12)
 ;https://www.hackerrank.com/challenges/eval-ex/problem
 
 (defn sum-of-multiples [num]

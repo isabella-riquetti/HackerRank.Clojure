@@ -1,4 +1,4 @@
-(ns hackerrank.exercise4)
+(ns introduction.exercise4)
 https://www.hackerrank.com/challenges/fp-list-replication/problem
 
 (fn [n-times numbers]
