@@ -1,0 +1,41 @@
+Application:
+    (λg.((λf.((λx.(f (x x)))(λx.(f (x x))))) g))
+
+------------------------------
+Function:
+    (λf.((λx.(f (x x)))(λx.(f (x x))))) g
+Notation for Beta Reduction:
+    ((λx.(f (x x)))(λx.(f (x x))))[f:=g]
+Replacing f:
+    ((λx.(g (x x)))(λx.(g (x x))))
+New application:
+    (λg.((λx.(g (x x)))(λx.(g (x x)))))
+
+------------------------------
+Application:
+    (λg.((λx.(g (x x)))(λx.(g (x x)))))
+Function:
+    (λx.(g (x x)))(λx.(g (x x)))
+Notation for Beta Reduction:
+    (g (x x))[x:=(λx.(g (x x)))]
+Replacing x:
+    (g ((λx.(g (x x))) (λx.(g (x x)))))
+New application:
+    (λg.(g ((λx.(g (x x))) (λx.(g (x x))))))
+
+MORE COMPLEX THAN BEFORE (LOOP GETTING BIGGER)
+
+------------------------------
+Application:
+    (λg.(g ((λx.(g (x x))) (λx.(g (x x))))))
+Function:
+   (λx.(g (x x))) (λx.(g (x x)))
+Notation for Beta Reduction:
+    (g (x x))[x:=(λx.(g (x x)))]
+Replacing x:
+    (g ((λx.(g (x x))) (λx.(g (x x)))))
+New application:
+    (λg.(g ((g ((λx.(g (x x))) (λx.(g (x x))))))))
+
+Result:
+    CAN'T REDUCE

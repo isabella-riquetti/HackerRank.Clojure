@@ -1,17 +1,36 @@
 Application:
-    ((λx.(x x))(λx.(x x)))
+    ((λx.((λy.(x y))x))(λz.w))
 
 ------------------------------
 Function:
-    (λx.(x x))(λx.(x x))
+    (λx.((λy.(x y))x))(λz.w)
 Notation for Beta Reduction:
-    (x x)[x:=(λx.(x x)]
+    ((λy.(x y))x)[x:=(λz.w)]
 Replacing x:
-    ((λx.(x x) (λx.(x x))
+    ((λy.((λz.w) y))(λz.w))
 New application:
-    (λx.(x x))(λx.(x x))
+    ((λy.((λz.w) y))(λz.w))
 
-ETERNAL LOOP
+------------------------------
+Application:
+    ((λy.((λz.w) y))(λz.w))
+Function:
+    (λy.((λz.w) y))(λz.w)
+Notation for Beta Reduction:
+    ((λz.w) y)[y:=(λz.w)]
+Replacing y:
+    ((λz.w)(λz.w))
+New application:
+    ((λz.w)(λz.w))
 
+------------------------------
+Application:
+    ((λz.w)(λz.w))
+Function:
+    (λz.w)(λz.w)
+Notation for Beta Reduction:
+    (w)[z:=(λz.w)]
+Replacing z:
+    (w)
 Result:
-    CAN'T REDUCE
+    w

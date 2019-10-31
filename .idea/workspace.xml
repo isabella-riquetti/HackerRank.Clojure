@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="897290ef-10d8-41ba-a5e8-87fd3e1e664a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/introduction/exercise13" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/exercise14" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/exercise15" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/exercise16" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/introduction/exercise17.clj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/introduction/exercise17" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introduction/exercise13" beforeDir="false" afterPath="$PROJECT_DIR$/src/introduction/exercise14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introduction/exercise14" beforeDir="false" afterPath="$PROJECT_DIR$/src/introduction/exercise15" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introduction/exercise16" beforeDir="false" afterPath="$PROJECT_DIR$/src/introduction/exercise16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/introduction/exercise17.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/introduction/exercise13.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Clojure Application.introduction.exercise2">
+  <component name="RunManager" selected="Clojure Application.introduction.exercise13">
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="replType" value="NREPL" />
       <setting name="execution" value="LEININGEN" />
@@ -63,30 +63,6 @@
       <setting name="port" value="0" />
       <setting name="replType" value="0" />
       <module name="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hackerrank.absolute" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="hackerrank" />
-      <setting name="path" value="$PROJECT_DIR$/src/hackerrank/absolute.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/hackerrank" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hackerrank.complex" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
-      <module name="hackerrank" />
-      <setting name="path" value="$PROJECT_DIR$/src/hackerrank/complex.clj" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/hackerrank" />
       <method v="2" />
     </configuration>
     <configuration name="hackerrank.exercise1" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
@@ -113,6 +89,18 @@
       <setting name="workDir" value="$PROJECT_DIR$/src/hackerrank" />
       <method v="2" />
     </configuration>
+    <configuration name="introduction.exercise13" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="hackerrank" />
+      <setting name="path" value="$PROJECT_DIR$/src/introduction/exercise13.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/introduction" />
+      <method v="2" />
+    </configuration>
     <configuration name="introduction.exercise2" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
       <module name="hackerrank" />
       <setting name="path" value="$PROJECT_DIR$/src/introduction/exercise2.clj" />
@@ -125,13 +113,25 @@
       <setting name="workDir" value="$PROJECT_DIR$/src/introduction" />
       <method v="2" />
     </configuration>
+    <configuration name="user" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="hackerrank" />
+      <setting name="path" value="$PROJECT_DIR$/src/introduction/exercise13.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/introduction" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Clojure Application.introduction.exercise13" />
+        <item itemvalue="Clojure Application.user" />
         <item itemvalue="Clojure Application.introduction.exercise2" />
         <item itemvalue="Clojure Application.hackerrank.exercise1" />
         <item itemvalue="Clojure Application.hackerrank.exercise12" />
-        <item itemvalue="Clojure Application.hackerrank.complex" />
-        <item itemvalue="Clojure Application.hackerrank.absolute" />
       </list>
     </recent_temporary>
   </component>

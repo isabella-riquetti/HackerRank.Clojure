@@ -1,36 +1,24 @@
 Application:
-    ((λx.((λy.(x y))x))(λz.w))
+    ((λx.(x y))(λz.z))
 
 ------------------------------
 Function:
-    (λx.((λy.(x y))x))(λz.w)
+    (λx.(x y))(λz.z)
 Notation for Beta Reduction:
-    ((λy.(x y))x)[x:=(λz.w)]
+    (x y)[x:=(λz.z)]
 Replacing x:
-    ((λy.((λz.w) y))(λz.w))
+    ((λz.z) y)
 New application:
-    ((λy.((λz.w) y))(λz.w))
+    ((λz.z) y)
 
 ------------------------------
 Application:
-    ((λy.((λz.w) y))(λz.w))
+    ((λz.z) y)
 Function:
-    (λy.((λz.w) y))(λz.w)
+    (λz.z) y
 Notation for Beta Reduction:
-    ((λz.w) y)[y:=(λz.w)]
-Replacing y:
-    ((λz.w)(λz.w))
-New application:
-    ((λz.w)(λz.w))
-
-------------------------------
-Application:
-    ((λz.w)(λz.w))
-Function:
-    (λz.w)(λz.w)
-Notation for Beta Reduction:
-    (w)[z:=(λz.w)]
+    (z)[z:=y]
 Replacing z:
-    (w)
+    (y)
 Result:
-    w
+    y
